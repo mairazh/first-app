@@ -1,0 +1,33 @@
+body{
+    background: #fff;
+}
+
+.formItem{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form, .info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.info input{
+    border: none;
+    width: 300px;
+    height: 35px;
+    border-radius:8px;
+}
+
+.btn input{
+    width: 120px;
+    height: 27px;
+    border: none;
+    border-radius:5px;
+    font-size:small;
+}

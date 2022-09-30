@@ -1,0 +1,38 @@
+.mainMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.mainMenu>div{
+    width:80%;
+}
+
+.mainPageFirstRow,
+.mainPageSecondRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px
+}
+
+.mainPageFirstRow>div,
+.mainPageSecondRow>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 150px;
+    background-color: #FFE090;
+    border-radius: 10px;
+    font-family: 'Kaisei Decol';
+}
+
+.mainPageFirstRow>div{
+    width: 50%;
+}
+
+.mainPageSecondRow>:first-child {
+    width: 30%
+}
+.mainPageSecondRow>:last-child {
+    width: 70%
+}
